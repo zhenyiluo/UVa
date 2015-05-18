@@ -28,7 +28,7 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
         if(n == 0 && m == 0){
-            return;
+            System.exit(0);
         }
 
         System.out.println("Case #" + caseCount);
